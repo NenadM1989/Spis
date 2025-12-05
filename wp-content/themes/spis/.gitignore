@@ -1,0 +1,16 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+
+# Local config
+wp-config.php
+*.log
+*.sql
+*.zip
+
+# Cache & backups
+wp-content/cache/
+wp-content/backups/
+
+# Plugins (ako ih ne razvijaš)
+wp-content/plugins/
