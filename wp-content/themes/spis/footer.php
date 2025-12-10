@@ -14,8 +14,12 @@
 
 <footer class="footer-main page-width-full">
 	<div class="footer-container page-width-boxed-2">
-		<div></div>
-		<div></div>
+		<div class="footer-top">
+			<p>Nenad</p>
+		</div>
+		<div class="footer-bottom">
+			<p>Nenad</p>
+		</div>
 	</div>
 </footer>
 
