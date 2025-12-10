@@ -967,3 +967,85 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+
+/*Global width*/
+/*---------------------*/
+
+:root {
+	--global-width-boxed: 1152px;
+	--global-width-boxed-2: 1200px;
+	--global-width-full: 100%;
+}
+
+
+.page-width-boxed {
+	width: var(--global-width-boxed);
+}
+
+@media (max-width:1192){
+	.page-width-boxed {
+		width: 100%;
+		padding: 0 20px;
+	}
+}
+
+.page-width-boxed-2 {
+	width: var(--global-width-boxed-2);
+}
+
+@media (max-width:1240){
+	.page-width-boxed {
+		width: 100%;
+		padding: 0 20px;
+	}
+}
+
+.page-width-full {
+	width: var(--global-width-full);
+}
+
+
+/*Global fonts*/
+
+:root {
+    --global-font-family-1: 'Argent CF', sans-serif;
+    --global-font-family-2: 'Trade Gothic', sans-serif;
+}
+
+@font-face {
+    font-family: 'Argent CF';
+    src: url('/wp-content/themes/spis/assets/fonts/argent-cf/Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trade Gothic';
+    src: url('/wp-content/themes/spis/assets/fonts/trade-gothic/Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Global colors*/
+
+:root {
+	--global-color-1: #EEE9DF;
+	--global-color-2: #DDD1C5;
+	--global-color-3: #1D2C3F;
+	--global-color-4: #1C1F2A;
+}
+
+.footer-main {
+	display: flex;
+	justify-content: center;
+    background: linear-gradient(180deg, #06121E 0%, #1D2C3F 100%);
+	padding-top: 59px;
+	padding-bottom: 53.5px;
+
+
+}
+
+.footer-container {
+	border: 1px solid red;
+}

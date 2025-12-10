@@ -1,0 +1,108 @@
+.header-main {
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    margin-bottom: -73px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-container{
+    padding-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--global-color-2);
+
+}
+
+.header-left a{
+    display: flex;
+    gap: 8px;
+    padding-bottom: 12px;
+    text-decoration: none;
+}
+
+.header-left p {
+    text-transform: uppercase;
+    font-family: var(--global-font-family-1);
+    font-size: 24px;
+    margin: 0;
+    color: var(--global-color-1);
+
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+}
+
+
+.header-menu ul {
+    display: flex;
+    gap: 79px;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    
+}
+
+.header-menu a {
+    text-transform: uppercase;
+    color: var(--global-color-2);
+    font-family: var(--global-font-family-2);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.header-left, .header-right{
+    width: 10%;
+}
+
+/* Mobile breakpoint */
+@media (max-width: 1024px) {
+
+    .header-container{
+        justify-content: space-between;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+    }
+
+    .header-menu ul {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        background-color: rgba(0, 0, 0, 0.9); 
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .header-menu ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .header-menu::after {
+        content: "\2630"; 
+        font-size: 28px;
+        color: var(--global-color-2);
+        cursor: pointer;
+        display: block;
+    }
+    .header-menu.active ul {
+        display: flex;
+    }
+
+    .header-right{
+        display: none;
+    }
+}

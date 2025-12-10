@@ -1,0 +1,30 @@
+/* homepage.css - demo hero sekcija */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.hero-demo {
+    height: 600px; /* visina hero sekcije */
+    background-color: #0a1f44; /* tamno plava */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; /* tekst u beloj boji */
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.hero-demo .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-demo .hero-content p {
+    font-size: 1.25rem;
+}
+
+
+
+
+.hero-title {
+    font-family: var(--global-font-family-1);
+}
