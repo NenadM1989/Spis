@@ -50,9 +50,12 @@
     
 }
 
-.header-menu a {
+.header-menu a,
+.header-menu a:visited,
+.header-menu a:hover,
+.header-menu a:active {
     text-transform: uppercase;
-    color: var(--global-color-2);
+    color: #DDD1C5;
     font-family: var(--global-font-family-2);
     font-weight: 400;
     font-size: 13px;
@@ -60,6 +63,7 @@
     letter-spacing: 3px;
     text-decoration: none;
 }
+
 
 .header-left, .header-right{
     width: 10%;

@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 .hero-demo {
-    height: 600px; /* visina hero sekcije */
-    background-color: #0a1f44; /* tamno plava */
+    height: 600px; 
+    background-color: #0a1f44; 
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff; /* tekst u beloj boji */
+    color: #ffffff; 
     font-family: 'Inter', sans-serif;
     text-align: center;
 }
