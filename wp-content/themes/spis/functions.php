@@ -165,6 +165,15 @@ add_filter('upload_mimes', function ($mimes) {
 });
 
 
+wp_enqueue_style(
+	'card-news',
+	get_template_directory_uri() . '/assets/css/card-news.css',
+	[],
+	'1.0'
+);
+
+
+
 
 /**
  * Implement the Custom Header feature.

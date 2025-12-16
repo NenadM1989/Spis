@@ -1,0 +1,114 @@
+.news-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+    gap: 23px;
+}
+.news-card-image {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.news-card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: none;
+    outline: none;
+}
+.news-card-date {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 73px;
+    height: 73px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    border-bottom-left-radius: 20px;
+    z-index: 10;
+    text-align: center;
+    padding: 13px 0;
+    box-sizing: border-box;
+    overflow: hidden; 
+    transform: translateZ(0); 
+}
+
+.news-card-date span {
+    display: block;
+}
+
+.news-card-date-month {
+    font-size: 11px;
+    color: #1D2C3F;
+    font-family: var(--global-font-family-2);
+    line-height: 11px;
+    letter-spacing: 0.35px;
+}
+
+.news-card-date-day {
+    font-size: 24px;
+    font-family: var(--global-font-family-6);
+    color: var(--global-color-3);
+    line-height: 24px;
+    letter-spacing: -1px;
+    padding: 3px 0;
+}
+
+.news-card-date-year {
+    font-size: 11px;
+    color: var(--global-color-3);
+    font-family: var(--global-font-family-2);
+    line-height: 11px;
+    letter-spacing: 0.35px;
+}
+.news-card-content {
+    padding: 0;
+}
+
+.news-card-location {
+    font-size: 18px;
+    color: rgba(0,0,0,0.55);
+    font-family: var(--global-font-family-4);
+    line-height: 22px;
+    letter-spacing: -0.18px;
+    margin-bottom: 9px;
+}
+
+.news-card-title {
+    font-family: var(--global-font-family-1);
+    font-size: 24px;
+    line-height: 27px;
+    color: #1D2C3F;
+    letter-spacing: -1.2px;
+    font-weight: 400;
+}
+
+.news-card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #001025;
+    font-family: var(--global-font-family-2);
+    line-height: 23px;
+}
+
+.news-card-link::after {
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-image: url('../images/fi_arrow-down-left.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
