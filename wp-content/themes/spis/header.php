@@ -16,7 +16,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="<?php echo content_url(); ?>/uploads/2025/12/Site-icon-1.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="<?php echo content_url(); ?>/uploads/2025/12/Site-icon-1.png" sizes="192x192">
-	<link rel="stylesheet" href="/wp-content/themes/spis/assets/css/header.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
