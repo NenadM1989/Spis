@@ -23,10 +23,10 @@
 						<p class="footer-column-spis">Udruženje <br> priređivača <br>igara na sreću</p>
 					</div>
 					<div class="footer-column">
-						<p class="top-text-sr">Društvena odgovornost <br> kampanje</p>
+						<a href="#" class="top-text-sr">Društvena odgovornost <br> kampanje</a>
 					</div>
 					<div class="footer-column">
-						<p class="footer-text-about">O nama</p>
+						<a href="#" class="footer-text-about">O nama</a>
 					</div>
 				</div>
 				<div class="footer-center-bottom">
@@ -34,15 +34,16 @@
 						<p class="bottom-text hidden">Udruženje priređivača igara na sreću</p>
 					</div>
 					<div class="footer-column">
-						<p class="footer-bottom-text">Mozzart</p>
-						<p class="footer-bottom-text">Maxbet</p>
+						<a href="#" class="footer-bottom-text">Mozzart</a>
+						<a href="#" class="footer-bottom-text">Maxbet</a>
 					</div>
 					<div class="footer-column">
-						<p class="footer-bottom-text">O nama</p>
-						<p class="footer-bottom-text">Vesti</p>
-						<p class="footer-bottom-text">Članice</p>
+						<a href="#" class="footer-bottom-text">O nama</a>
+						<a href="#" class="footer-bottom-text">Vesti</a>
+						<a href="#" class="footer-bottom-text">Članice</a>
 					</div>
 				</div>
+
 
 			</div>
 			<div class="footer-container-right">
@@ -51,8 +52,6 @@
 
 		</div>
 		<div class="footer-container-bottom">
-
-			<!-- LEVO – ISTA ŠIRINA KAO LOGO GORE -->
 			<div class="footer-bottom-left">
 				<div class="footer-bottom-left-sm">
 					<a href="#">
@@ -65,36 +64,23 @@
 					</a>
 				</div>
 			</div>
-
-			<!-- SREDINA – ISTI GRID KAO GORE -->
 			<div class="footer-bottom-center">
 				<div class="footer-bottom-grid">
-
-					<!-- PRVA KOLONA – ISPOD "UDRUŽENJE" -->
 					<div class="footer-bottom-col footer-bottom-contact">
 						<span class="footer-contact-line"></span>
 						<p class="footer-phone">+381 111-51-11</p>
 						<p>info@spis.rs</p>
 					</div>
-
-					<!-- DRUGA KOLONA – PRAZNA -->
 					<div></div>
-
-					<!-- TREĆA KOLONA – PRAZNA -->
 					<div></div>
 
 				</div>
 			</div>
-
-			<!-- DESNO – ISTA ŠIRINA KAO DUGME GORE -->
 			<div class="footer-bottom-right">
 				<p>© 5magazin<br>Sva prava zadržana</p>
 			</div>
 
 		</div>
-
-
-
 	</div>
 </footer>
 

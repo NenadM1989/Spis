@@ -164,6 +164,20 @@ add_filter('upload_mimes', function ($mimes) {
 	return $mimes;
 });
 
+function spis_enqueue_scripts()
+{
+
+	wp_enqueue_script(
+		'spis-header',
+		get_template_directory_uri() . '/js/header.js',
+		[],
+		null,
+		true
+	);
+}
+add_action('wp_enqueue_scripts', 'spis_enqueue_scripts');
+
+
 
 wp_enqueue_style(
 	'card-news',

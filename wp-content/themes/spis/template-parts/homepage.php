@@ -8,7 +8,7 @@ get_header();
 <link rel="stylesheet" href="/wp-content/themes/spis/assets/css/homepage.css">
 
 <!-- Hero -->
-<section class="home-hero page-width-full">
+<section class="home-hero-main page-width-full">
     <div class="home-hero-container page-width-boxed-2">
         <h1 class="home-hero-heading">Ujedinjeni za <br>sigurno i održivo tržište igara na sreću</h1>
         <p class="home-hero-text">Mi smo glas licenciranih priređivača igara na sreću u Srbiji i zajedno radimo na stvaranju odgovorne i održive budućnosti </p>

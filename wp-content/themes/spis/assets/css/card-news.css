@@ -112,3 +112,9 @@
     background-size: contain;
 }
 
+@media (max-width:1024px){
+    .news-card-content {
+        text-align: left;
+    }
+}
+
