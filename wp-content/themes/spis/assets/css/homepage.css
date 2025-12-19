@@ -1,14 +1,18 @@
 /*Hero section*/
 .home-hero-main {
-    height: 1061px;
-    padding-top: 216px;
+    /* height: 100vh; */
+    padding-top: 286px;
+    padding-bottom: 344px;
     position: relative;
     overflow: visible;
-    background: linear-gradient(
-        135deg,
-        #1C1F2A 0%,
-        #1D2C3F 100%
-    );
+     background:
+        radial-gradient(
+            30% 30% at 50% 40%,
+            #1D2C3F 0%,
+            #1D2C3F 35%,
+            #1C1F2A 65%,
+            #1C1F2A 100%
+        );
 }
 
 .home-hero-main::before {
@@ -144,6 +148,7 @@
 }
 
 .home-about-logo {
+    padding-top: 9px;
     height: 45px;
     width: 45px;
 }
@@ -176,6 +181,8 @@
     line-height: 31px;
     letter-spacing: -0.5px;
 }
+
+/*News*/
 .home-news {
     padding-top: 123px;
     padding-bottom: 191px;
@@ -251,6 +258,7 @@
     background-color: #EEE9DF;
 }
 
+/*Responsibility*/
 .home-responsibility {
     display: flex;
     justify-content: center;
@@ -259,7 +267,7 @@
 
 .home-responsibility-container {
     display: flex;
-    gap: 90px;
+    gap: 73px;
 }
 
 .home-responsibility-left img {
@@ -272,7 +280,9 @@
 }
 
 .home-responsibility-right {
-    padding-top: 25px;
+    padding-top: 9px;
+    padding-left: 17px;
+    margin-top: 16px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -319,6 +329,7 @@
     color: var(--global-color-1);
 }
 
+/*Benefits*/
 .home-benefits {
     padding-top: 105px;
     padding-bottom: 130.5px;
@@ -635,6 +646,7 @@
     }
 
     .home-about-logo {
+        
         width: 36px;
         height: 36px;
     }

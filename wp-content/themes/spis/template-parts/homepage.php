@@ -14,14 +14,14 @@ get_header();
         <p class="home-hero-text">Mi smo glas licenciranih priređivača igara na sreću u Srbiji i zajedno radimo na stvaranju odgovorne i održive budućnosti </p>
         <a href="#" class="home-hero-btn">Društvena odgovornost i kampanje</a>
     </div>
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/beli.png" alt="Diamond" class="home-diamond">
+    <img src="/wp-content/uploads/2025/12/beli.png" alt="Diamond" class="home-diamond">
 </section>
 
 <!-- About Us -->
 <section class="home-about page-width-full">
     <div class="home-about-container page-width-boxed">
         <div class="home-about-top">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/darko-logo.svg" alt="Dark Logo" class="home-about-logo">
+            <img src="/wp-content/uploads/2025/12/crni-logo.svg" alt="Dark Logo" class="home-about-logo">
             <h2 class="home-about-heading">Ko smo mi?</h2>
         </div>
 
@@ -68,14 +68,14 @@ get_header();
 <section class="home-responsibility page-width-full">
     <div class="home-responsibility-container page-width-boxed">
         <div class="home-responsibility-left">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/responsibility.png" alt="Responsibility">
+            <img src="/wp-content/uploads/2025/12/Asset-8@2x-1-min.png" alt="Responsibility">
         </div>
         <div class="home-responsibility-right">
             <div class="home-responsibility-title">Društvena odgovornost i inicijative</div>
             <div class="home-responsibility-text">Kao zajednički glas industrije, zalažemo se za razvijanje transparentnog, odgovornog i regulisanog tržišta igara na sreću. Naša misija je da zaštitimo interese svojih članica, podstaknemo inovacije i doprinesemo ekonomskom razvoju Srbije.</div>
             <a href="#" class="home-responsibility-btn">
                 SAZNAJ VIŠE
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fi_arrow-down-left.svg" alt="strelica">
+                <img src="/wp-content/uploads/2025/12/fi_arrow-down-left.svg" alt="strelica">
             </a>
 
         </div>

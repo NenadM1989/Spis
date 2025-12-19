@@ -1109,13 +1109,14 @@ textarea {
     justify-content: center;
     z-index: 999;
     margin-bottom: -73px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding:6px 20px;
 }
 
 .header-container{
-    padding-top: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 1px solid var(--global-color-2);
@@ -1125,7 +1126,6 @@ textarea {
 .header-left a{
     display: flex;
     gap: 8px;
-    padding-bottom: 12px;
     text-decoration: none;
 }
 

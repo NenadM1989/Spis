@@ -169,7 +169,7 @@ function spis_enqueue_scripts()
 
 	wp_enqueue_script(
 		'spis-header',
-		get_template_directory_uri() . '/js/header.js',
+		get_template_directory_uri() . '/assets/js/header.js',
 		[],
 		null,
 		true
@@ -186,6 +186,32 @@ wp_enqueue_style(
 	'1.0'
 );
 
+
+function spis_register_menus()
+{
+	register_nav_menus([
+		'header-menu' => 'Header Menu',
+	]);
+}
+add_action('init', 'spis_register_menus');
+
+
+function spis_enqueue_assets()
+{
+
+	wp_enqueue_style(
+		'spis-main-style',
+		get_stylesheet_uri()
+	);
+
+	wp_enqueue_style(
+		'spis-members-style',
+		get_template_directory_uri() . '/assets/css/members.css',
+		array('spis-main-style'),
+		'1.0'
+	);
+}
+add_action('wp_enqueue_scripts', 'spis_enqueue_assets');
 
 
 

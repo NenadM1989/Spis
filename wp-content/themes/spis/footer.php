@@ -15,8 +15,9 @@
 	<div class="footer-container page-width-boxed-1">
 		<div class="footer-container-top">
 			<div class="footer-container-left">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Logo.svg" alt="site logo">
+				<img src="/wp-content/uploads/2025/12/Logo-1.svg" alt="site logo">
 			</div>
+
 			<div class="footer-container-center">
 				<div class="footer-center-top">
 					<div class="footer-column">
@@ -43,24 +44,21 @@
 						<a href="#" class="footer-bottom-text">Članice</a>
 					</div>
 				</div>
-
-
 			</div>
 			<div class="footer-container-right">
 				<a href="#">Get in Touch</a>
 			</div>
-
 		</div>
 		<div class="footer-container-bottom">
 			<div class="footer-bottom-left">
 				<div class="footer-bottom-left-sm">
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.svg" alt="">
+						<img src="/wp-content/uploads/2025/12/Vector.svg" alt="">
 					</a>
 				</div>
 				<div class="footer-bottom-left-sm">
 					<a href="#">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/instagram.svg" alt="">
+						<img src="/wp-content/uploads/2025/12/Insta.svg" alt="">
 					</a>
 				</div>
 			</div>
@@ -73,17 +71,15 @@
 					</div>
 					<div></div>
 					<div></div>
-
 				</div>
 			</div>
 			<div class="footer-bottom-right">
-				<p>© 5magazin<br>Sva prava zadržana</p>
+				<p>©2025-5magazin<br>Sva prava zadržana</p>
 			</div>
 
 		</div>
 	</div>
 </footer>
-
 <?php wp_footer(); ?>
 </body>
 

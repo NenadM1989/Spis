@@ -9,14 +9,16 @@
 }
 .news-card-image {
     position: relative;
+    width: 100%;
+    height: 407px;
     overflow: hidden;
-    margin: 0;
-    padding: 0;
 }
 
 .news-card-image img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     display: block;
     border: none;
     outline: none;

@@ -29,21 +29,22 @@
 		<div class="header-container page-width-boxed">
 			<div class="header-left">
 				<a href="<?php echo home_url('/'); ?>">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Logo.svg" alt="site logo">
+					<img src="/wp-content/uploads/2025/12/Logo-1.svg" alt="site logo">
 					<p>SPIS</p>
 				</a>
 			</div>
 			<div class="header-menu">
-				<nav>
-					<ul>
-						<li><a href="#">O nama</a></li>
-						<li><a href="#">Članice</a></li>
-						<li><a href="#">Vesti</a></li>
-						<li><a href="#">Kontakt</a></li>
-					</ul>
+				<nav class="header-nav">
+					<?php
+					wp_nav_menu([
+						'theme_location' => 'header-menu',
+						'container'      => false,
+						'menu_class'     => 'header-menu-list',
+						'fallback_cb'    => false,
+					]);
+					?>
 				</nav>
 			</div>
-
 			<div class="header-right"></div>
 		</div>
 	</header>

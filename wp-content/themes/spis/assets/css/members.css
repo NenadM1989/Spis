@@ -1,0 +1,21 @@
+.members-hero-main {
+    background: linear-gradient(135deg,#1C1F2A 0%,#1D2C3F 100%);
+    padding-top: 126px;
+    padding-bottom: 45px;
+}
+
+.members-hero-container {
+    margin: 0 auto;
+    max-width: 624px;
+    display: flex;
+    justify-content: center;
+}
+
+.members-hero-container p {
+    color: var(--global-color-1);
+    font-size: 14px;
+    letter-spacing: 2.4px;
+    line-height: 18px;
+    font-family: var(--global-font-family-2);
+    text-transform: uppercase;
+}
