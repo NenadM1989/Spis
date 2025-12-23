@@ -4,9 +4,14 @@
     text-decoration: none;
     color: inherit;
     background-color: #ffffff;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
     gap: 23px;
 }
+
+.news-card:hover {
+    transform: translateY(-10px);
+}
+
 .news-card-image {
     position: relative;
     width: 100%;
@@ -25,8 +30,8 @@
 }
 .news-card-date {
     position: absolute;
-    top: -1px;
-    right: -1px;
+    top: 0px;
+    right: 0px;
     width: 73px;
     height: 73px;
     background-color: #ffffff;

@@ -992,6 +992,8 @@ textarea {
     --global-width-boxed: 1152px;
     --global-width-boxed-2: 1200px;
 	--global-width-boxed-3: 1050px;
+    --global-width-boxed-4: 624px;
+    --global-width-boxed-5: 1220px;
     --global-width-full: 100%;
 }
 
@@ -1024,6 +1026,30 @@ textarea {
 
 @media (max-width: 1090px) {
     .page-width-boxed-3 {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.page-width-boxed-4 {
+    width: var(--global-width-boxed-4);
+}
+
+@media (max-width: 664px) {
+    .page-width-boxed-4 {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.page-width-boxed-5 {
+    width: var(--global-width-boxed-5);
+}
+
+@media (max-width: 1260px) {
+    .page-width-boxed-4 {
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;

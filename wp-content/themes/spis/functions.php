@@ -213,6 +213,20 @@ function spis_enqueue_assets()
 }
 add_action('wp_enqueue_scripts', 'spis_enqueue_assets');
 
+function spis_enqueue_about_us_styles()
+{
+
+	wp_enqueue_style(
+		'spis-about-us',
+		get_template_directory_uri() . '/assets/css/about-us.css',
+		array(),          // dependencies
+		'1.0',            // version
+		'all'             // media
+	);
+}
+add_action('wp_enqueue_scripts', 'spis_enqueue_about_us_styles');
+
+
 
 
 /**
