@@ -372,6 +372,81 @@
 }
 
 
+/* About SPIS 2026 */
+.about-spis-main {
+    background-color: var(--global-color-1);
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.about-spis-container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.about-spis-header p {
+    font-family: var(--global-font-family-3);
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2C3F;
+}
+
+.about-spis-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    border-top: 1px solid #DDD1C5;
+    border-bottom: 1px solid #DDD1C5;
+}
+
+.about-spis-item {
+    position: relative;
+    min-height: 420px;
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about-spis-item:not(:first-child) {
+    border-left: 1px solid #DDD1C5;
+}
+
+.about-spis-number {
+    display: block;
+    font-family: var(--global-font-family-6);
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #1D2C3F;
+    margin-bottom: 24px;
+}
+
+.about-spis-text {
+    font-family: var(--global-font-family-4);
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B2632;
+    max-width: 260px;
+}
+
+.about-spis-card {
+    background-color: #EEE9DF;
+    height: 100%;
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-spis-item--3 {
+    justify-content: center;
+}
+
+
+
 
 @media (max-width: 1024px) {
 
