@@ -226,6 +226,32 @@ function spis_enqueue_about_us_styles()
 }
 add_action('wp_enqueue_scripts', 'spis_enqueue_about_us_styles');
 
+// Učitaj single.css SAMO za single post
+function spis_enqueue_single_styles()
+{
+	if (is_single()) {
+		wp_enqueue_style(
+			'spis-single',
+			get_template_directory_uri() . '/assets/css/single.css',
+			array('spis-style'), // zavisi od glavnog CSS-a
+			'1.0'
+		);
+	}
+}
+add_action('wp_enqueue_scripts', 'spis_enqueue_single_styles');
+
+function spis_enqueue_social_responsibility_styles()
+{
+	if (is_page_template('template-parts/social-responsibility-campaigns.php')) {
+		wp_enqueue_style(
+			'spis-social-responsibility',
+			get_template_directory_uri() . '/assets/css/social-responsibility-campaigns.css',
+			array(),
+			'1.0'
+		);
+	}
+}
+add_action('wp_enqueue_scripts', 'spis_enqueue_social_responsibility_styles');
 
 
 

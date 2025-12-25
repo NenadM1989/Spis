@@ -24,7 +24,7 @@
 						<p class="footer-column-spis">Udruženje <br> priređivača <br>igara na sreću</p>
 					</div>
 					<div class="footer-column">
-						<a href="#" class="top-text-sr">Društvena odgovornost <br> kampanje</a>
+						<a href="/drustveno-odgovorne-kampanje/" class="top-text-sr">Društvena odgovornost <br> kampanje</a>
 					</div>
 					<div class="footer-column">
 						<a href="#" class="footer-text-about">O nama</a>

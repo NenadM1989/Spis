@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying all single posts
  *
@@ -7,34 +8,29 @@
  * @package Spis
  */
 
-get_header();
+get_header('single');
 ?>
 
-	<main id="primary" class="site-main">
-
-		<?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content', get_post_type() );
-
-			the_post_navigation(
-				array(
-					'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'spis' ) . '</span> <span class="nav-title">%title</span>',
-					'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'spis' ) . '</span> <span class="nav-title">%title</span>',
-				)
-			);
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
-	</main><!-- #main -->
-
+<div class="single-post-main page-width-full">
+	<div class="single-post-container page-width-boxed-6">
+		<div class="single-post-top-content">
+			<p class="single-post-top-content-newest">Najnovija dešavanja</p>
+			<h1 class="single-post-top-content-title"><?php the_title(); ?></h1>
+			<p class="single-post-top-content-text">Duis quis mauris vel turpis dignissim tempus sed in risus. Praesent sagittis aliquam vehicula</p>
+		</div>
+		<div class="single-post-image">
+			<img src="/wp-content/uploads/2025/12/DZ3_8379-1-min.png" alt="image">
+			<p class="single-post-image-caption">Autor fotografije: ŽIKA SLIKA</p>
+		</div>
+		<div class="single-post-bottom-container">
+			<p class="single-post-bottom-meta">
+				<?php echo get_the_date('d. F Y'); ?>, <span class="single-post-bottom-location">Beograd</span>
+			</p>
+			<div class="single-post-bottom-content">
+				<?php the_content(); ?>
+			</div>
+		</div>
+	</div>
+</div>
 <?php
-get_sidebar();
 get_footer();

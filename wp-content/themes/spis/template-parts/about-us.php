@@ -41,6 +41,9 @@ get_header();
                 </div>
             </div>
         </div>
+        <div class="about-goals-bottom-container">
+            <h2 class="about-goals-bottom-title">Ciljevi</h2>
+        </div>
     </div>
     </div>
 </section>

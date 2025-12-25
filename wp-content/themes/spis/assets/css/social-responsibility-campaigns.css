@@ -1,0 +1,47 @@
+.campaings-hero-main {
+    padding-top: 143px;
+    background: var(--global-color-3);
+}
+
+.campaings-hero-container {
+    margin: 0 auto;
+}
+
+.campaings-hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.campaings-hero-title {
+    color: #F3CFB2;
+    font-family: var(--global-font-family-5);
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 108px;
+    letter-spacing: -0.7px;
+}
+
+.campaings-hero-top-text {
+    color: var(--global-color-2);
+    font-family: var(--global-font-family-5);
+    font-size: 33px;
+    font-weight:108%;
+    letter-spacing: -0.5px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.campaings-hero-bottom-text {
+    color: #F3CFB2;
+    font-family: var(--global-font-family-5);
+    font-size: 33px;
+    font-weight:108%;
+    letter-spacing: -0.5px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 300;
+}
